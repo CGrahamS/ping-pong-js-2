@@ -8,12 +8,33 @@
   <body>
     <form id="ping-pong-form">
       <label for="goal">Enter a number:</label>
-      <input id="goal" type="number">
+      <input id="goal" type="number" required=required>
       <button type="submit">Submit</button>
     </form>
     <form id="signup">
       <label for="email">Enter your email:</label>
       <input id="email" type="text">
+      <button type="submit">Submit</button>
+    </form>
+    <form id="calculator">
+      <label for="number1">Enter a number:</label>
+      <input id="number1" type="number">
+      <label for="number2">Enter another number:</label>
+      <input id="number2" type="number">
+      <br>
+      <label>
+        <input type="radio" name="math" value="add">Add
+      </label>
+      <label>
+        <input type="radio" name="math" value="subtract">Subtract
+      </label>
+      <label>
+        <input type="radio" name="math" value="multiply">Multiply
+      </label>
+      <label>
+        <input type="radio" name="math" value="divide">Divide
+      </label>
+      <br>
       <button type="submit">Submit</button>
     </form>
     <ul id="solution"></ul>
